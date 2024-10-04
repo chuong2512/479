@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+<dict>
+	<key>debug</key>
+	<string>TRUE</string>
+	<key>PM_LOG_LEVEL</key>
+	<string>NORMAL</string>
+	<key>isLandscape</key>
+	<string>TRUE</string>
+	<key>xmlUpdateInterval_hours</key>
+	<integer>2</integer>
+	<key>appId</key>
+	<string>1234</string>
+	<key>unique_app_name</key>
+	<string>plugin_manager</string>
+	<key>xmlUrl</key>
+	<string>http://pluginmanagerconfig1.info/configs/NPMTest</string>
+	<key>ftp_url</key>
+	<string>http://pluginmanagerconfig1.info/configs/</string>
+	<key>updatePopupOn</key>
+	<string>TRUE</string>
+	<key>Facebook_appId</key>
+	<string>497294963625382</string>
+	<key>Facebook_displayName</key>
+	<string>Facebook display name</string>
+	<key>inapp_test</key>
+	<string>com.company.Game_inapp_test</string>
+	<key>leaderboard_test</key>
+	<string>com.company.Game_leaderboard_test</string>
+	<key>achievement_test</key>
+	<string>com.company.Game_achievement_test</string>
+	<key>Valinta_ID</key>
+	<string>9HMRetPlY0UXIoofWuu23w</string>
+	<key>Valinta_AvailableLocalizations</key>
+	<string>;US;PL;</string>
+	<key>NAP_ID</key>
+	<string>1234</string>
+</dict>
+</plist>

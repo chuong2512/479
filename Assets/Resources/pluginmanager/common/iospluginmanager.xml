@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IOSPluginMaangerDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Plugins>
+    <Plugin>
+      <name>AppsFlyer</name>
+      <active>true</active>
+      <path>Editor/AppsFlyer/</path>
+      <tag>AF</tag>
+    </Plugin>
+    <Plugin>
+      <name>NativeX</name>
+      <active>true</active>
+      <path>Editor/NativeX/</path>
+      <tag>NX</tag>
+    </Plugin>
+    <Plugin>
+      <name>AdColony</name>
+      <active>true</active>
+      <path>Editor/AdColony/</path>
+      <tag>AC</tag>
+    </Plugin>
+    <Plugin>
+      <name>ChartBoost</name>
+      <active>true</active>
+      <path>Editor/ChartBoost/</path>
+      <tag>CB</tag>
+    </Plugin>
+    <Plugin>
+      <name>AdMob</name>
+      <active>true</active>
+      <path>Editor/AdMob/</path>
+      <tag>AdMob</tag>
+    </Plugin>
+    <Plugin>
+      <name>Facebook</name>
+      <active>true</active>
+      <path>Editor/Facebook/</path>
+      <tag>Facebook</tag>
+    </Plugin>
+    <Plugin>
+      <name>FAN</name>
+      <active>true</active>
+      <path>Editor/AudienceNetwork/</path>
+      <tag>FAN</tag>
+    </Plugin>
+    <Plugin>
+      <name>Etcetera</name>
+      <active>true</active>
+      <path>Editor/Etcetera/</path>
+      <tag />
+    </Plugin>
+    <Plugin>
+      <name>GameCenter</name>
+      <active>false</active>
+      <path>Editor/GameCenter/</path>
+      <tag />
+    </Plugin>
+    <Plugin>
+      <name>StoreKit</name>
+      <active>true</active>
+      <path>Editor/StoreKit/</path>
+      <tag />
+    </Plugin>
+    <Plugin>
+      <name>NativeStoreKit</name>
+      <active>false</active>
+      <path>Plugins/NativeStoreKit</path>
+      <tag />
+    </Plugin>
+    <Plugin>
+      <name>Flurry</name>
+      <active>false</active>
+      <path>Editor/Flurry/</path>
+      <tag />
+    </Plugin>
+    <Plugin>
+      <name>Tapjoy</name>
+      <active>true</active>
+      <path>Editor/Tapjoy/</path>
+      <tag />
+    </Plugin>
+    <Plugin>
+      <name>Twitter</name>
+      <active>true</active>
+      <path>Editor/Twitter/</path>
+      <tag />
+    </Plugin>
+    <Plugin>
+      <name>UnityAds</name>
+      <active>true</active>
+      <path>Editor/UnityAds/</path>
+      <tag />
+    </Plugin>
+    <Plugin>
+      <name>iCloud</name>
+      <active>true</active>
+      <path>Editor/iCloud/</path>
+      <tag />
+    </Plugin>
+    <Plugin>
+      <name>SocialNetworking</name>
+      <active>false</active>
+      <path>Editor/SocialNetworking/</path>
+      <tag />
+    </Plugin>
+    <Plugin>
+      <name>PMNativeUtils</name>
+      <active>true</active>
+      <path>Editor/PMNativeUtils/</path>
+      <tag />
+    </Plugin>
+    <Plugin>
+      <name>PMInjection</name>
+      <active>true</active>
+      <path>Editor/PMInjection/</path>
+      <tag />
+    </Plugin>
+    <Plugin>
+      <name>PMPasteboard</name>
+      <active>true</active>
+      <path>Editor/PMPasteboard/</path>
+      <tag />
+    </Plugin>
+    <Plugin>
+      <name>OGLTexLoader</name>
+      <active>true</active>
+      <path>Editor/OGLTexLoader/</path>
+      <tag />
+    </Plugin>
+    <Plugin>
+      <name>Prime31Shared</name>
+      <active>true</active>
+      <path>Editor/Prime31Shared/</path>
+      <tag />
+    </Plugin>
+    <Plugin>
+      <name>PMTracker</name>
+      <active>true</active>
+      <path>Editor/PMTracker/</path>
+      <tag />
+    </Plugin>
+    <Plugin>
+      <name>Supersonic</name>
+      <active>true</active>
+      <path>Editor/Supersonic/</path>
+      <tag />
+    </Plugin>
+    <Plugin>
+      <name>AerServ</name>
+      <active>true</active>
+      <path>Editor/AerServ/</path>
+      <tag />
+    </Plugin>
+    <Plugin>
+      <name>MAchineZone</name>
+      <active>true</active>
+      <path>Editor/MachineZone/</path>
+      <tag />
+    </Plugin>
+    <Plugin>
+      <name>GameAnalytics</name>
+      <active>true</active>
+      <path>Editor/GameAnalytics/</path>
+      <tag />
+    </Plugin>
+    <Plugin>
+      <name>AppOnboard</name>
+      <active>true</active>
+      <path>Editor/AppOnboard/</path>
+      <tag />
+    </Plugin>
+    <Plugin>
+      <name>VPlayer</name>
+      <active>true</active>
+      <path>Editor/VPlayer/</path>
+      <tag />
+    </Plugin>
+    <Plugin>
+      <name>YouAppi</name>
+      <active>false</active>
+      <path>Editor/YouAppi/</path>
+      <tag />
+    </Plugin>
+    <Plugin>
+      <name>NAP</name>
+      <active>true</active>
+      <path>Editor/NativeAd/</path>
+      <tag />
+    </Plugin>
+    <Plugin>
+      <name>MoPub</name>
+      <active>true</active>
+      <path>Editor/MoPub/</path>
+      <tag />
+    </Plugin>
+  </Plugins>
+</IOSPluginMaangerDefinitions>

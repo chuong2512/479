@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>debug</key>
+	<true/>
+	<key>PM_LOG_LEVEL</key>
+	<string>NORMAL</string>
+	<key>isLandscape</key>
+	<false/>
+	<key>xmlUpdateInterval_hours</key>
+	<integer>2</integer>
+	<key>appId</key>
+	<string>123</string>
+	<key>xmlUrl</key>
+	<string>http://pluginmanagerconfig1.info/configs/BirdsGames/BirdsClimbing_FB_Test</string>
+	<key>ftp_url</key>
+	<string>http://pluginmanagerconfig1.info/configs/BirdsGames/</string>
+	<key>updatePopupOn</key>
+	<true/>
+	<key>AMPWF_id</key>
+	<string>4</string>
+	<key>AMPWF_code</key>
+	<string>418c6dd469b58731d8b3c8f10a9aeaad</string>
+	<key>life_street_id</key>
+	<string>260258</string>
+	<key>life_street_top_banner_slot</key>
+	<string>slot116920</string>
+	<key>life_street_top_banner_key</key>
+	<string>273</string>
+	<key>life_street_bottom_banner_slot</key>
+	<string>slot116921</string>
+	<key>life_street_bottom_banner_key</key>
+	<string>5a7</string>
+	<key>Facebook_AppId</key>
+	<string>333062620238397</string>
+	<key>Facebook_AppSecret</key>
+	<string>c13ad2320db400d6b594e477ba470646</string>
+	<key>Facebook_AppName</key>
+	<string>Bird Climb</string>
+	<key>bigDiamondPack</key>
+	<string>http://games.boombitgames.com/games/birdclimb/products/BigDiamondPack.html</string>
+	<key>smallDiamondPack</key>
+	<string>http://games.boombitgames.com/games/birdclimb/products/SmallDiamondPack.html</string>
+	<key>mediumDiamondPack</key>
+	<string>http://games.boombitgames.com/games/birdclimb/products/MediumDiamondPack.html</string>
+	<key>megaDiamondPack</key>
+	<string>http://games.boombitgames.com/games/birdclimb/products/MegaDiamondPack.html</string>
+	<key>unlockAll</key>
+	<string>http://games.boombitgames.com/games/birdclimb/products/UnlockAll.html</string>
+	<key>easyMode</key>
+	<string>http://games.boombitgames.com/games/birdclimb/products/EasyMode.html</string>
+</dict>
+</plist>

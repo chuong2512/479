@@ -1,0 +1,94 @@
+<html>
+
+<head>
+    <script>
+    var adzoneConfig;
+
+    adzoneConfig = {
+        adzoneid: 71025,
+        idfa: "",
+        ip: "",
+        sdk: "BoomBit",
+        sdkver: "",
+        model: "",
+        lat: "",
+        lon: "",
+        language: "",
+        gender: "",
+        yob: "",
+        connection: 0,
+    };
+    </script>
+    <script type='text/javascript'>
+    (function($, config) {
+        "use strict";
+        $.populateBody = function() {};
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', initializeAdzone(config), false);
+        xhr.setRequestHeader('Content-Type', 'text/plain');
+        xhr.onprogress = function() {
+            console.log('LOADING', xhr.status)
+        };
+        xhr.onload = function() {
+            console.log('DONE', xhr.status);
+            window.loaded = !1;
+
+            $.populateBody = function() {
+                var targetNode = document.body;
+                targetNode.innerHTML = xhr.responseText;
+                [].forEach.call(targetNode.getElementsByTagName("script"), function(el) {
+                    var script = document.createElement("script");
+                    if (el.src) {;
+                        script.src = el.src
+                    } else {
+                        script.innerText = el.innerText
+                    }
+                    targetNode.appendChild(script)
+                })
+            }
+
+            if (document.readyState === "complete") {
+                $.populateBody();
+            }
+        };
+        xhr.send(null);
+
+        function initializeAdzone(config) {
+            var obj = new URL("http://adzone.fractionalmedia.com/ad_server");
+
+            var params = [];
+            params.push(kv("adzoneid", config.adzoneid));
+            params.push(kv("idfa", config.idfa));
+            params.push(kv("ip", config.ip));
+            params.push(kv("ua", navigator.userAgent));
+            params.push(kv("sdk", config.sdk));
+            params.push(kv("sdkver", config.sdkver));
+            params.push(kv("model", config.model));
+            params.push(kv("lat", config.lat));
+            params.push(kv("lon", config.lon));
+            params.push(kv("language", config.language));
+            params.push(kv("yob", config.yob));
+            params.push(kv("gender", config.gender));
+            params.push(kv("connection", config.connection));
+            obj.search = params.join("&");
+
+
+            console.log(obj.toString());
+
+            return obj
+        };
+
+        function kv(key, value) {
+            return key + "=" + encodeURIComponent(value)
+        }
+    })(this, this.adzoneConfig);
+    </script>
+</head>
+
+<body>
+    <script>
+    populateBody();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AndroidPluginManagerDefinitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Plugins>
+    <Plugin>
+      <name>AdColony</name>
+      <active>true</active>
+      <path>Plugins/Android/Adcolony_lib</path>
+      <tag>AC</tag>
+      <methodCount>1097</methodCount>
+    </Plugin>
+    <Plugin>
+      <name>AppLovin</name>
+      <active>true</active>
+      <path>Plugins/Android/Applovin_lib</path>
+      <tag>AppLovin</tag>
+      <methodCount>1491</methodCount>
+    </Plugin>
+    <Plugin>
+      <name>ChartBoost</name>
+      <active>true</active>
+      <path>Plugins/Android/Chartboost_lib</path>
+      <tag>CB</tag>
+      <methodCount>2675</methodCount>
+    </Plugin>
+    <Plugin>
+      <name>Facebook</name>
+      <active>true</active>
+      <path>Plugins/Android/Fan_lib</path>
+      <tag>Facebook</tag>
+      <methodCount>4056</methodCount>
+    </Plugin>
+    <Plugin>
+      <name>InMobi</name>
+      <active>true</active>
+      <path>Plugins/Android/InMobi_lib</path>
+      <tag>InMobi</tag>
+      <methodCount>2907</methodCount>
+    </Plugin>
+  </Plugins>
+</AndroidPluginManagerDefinitions>

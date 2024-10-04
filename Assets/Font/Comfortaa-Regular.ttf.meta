@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: f10cf174adc5438a8a8e5177b1c4dae9
+timeCreated: 1564911809
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 60
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: "Comfortaa-Regular"
+  fontNames:
+  - Comfortaa
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData:
+  assetBundleName: 
+  assetBundleVariant: 

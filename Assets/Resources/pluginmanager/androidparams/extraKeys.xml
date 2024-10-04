@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plistconfig>
+	<provider name="default">NonconsumableIaps</provider>
+	<provider name="default">PM_USE_CLOUD_SAVE</provider>
+	<provider name="default">GPGS_key</provider>
+	<provider name="FirebaseCore">FirebaseId</provider>
+</plistconfig>

@@ -1,0 +1,6 @@
+System.Collections.Generic.List`1[PMProvider]
+AMZ,AmazonAds,AmazonAdsProvider,on_idle,ad,1,Amazon_adsKey,0
+IM,InMobi,AndroidInMobiProvider,on_idle,ad,3,InMobi_interstitial_id,InMobi_video_id,InMobi_banner_id,0
+CB,ChartBoost,ChartBoostProvider,on_idle,ad,2,ChartBoost_appId,ChartBoost_appSignature,0
+AL,AppLovin,AndroidAppLovinProvider,on_idle,ad,1,AppLovin_id,0
+AC,AdColony,AdColonyProvider,on_idle,ad,2,AdColony_id,AdColony_zone,0
