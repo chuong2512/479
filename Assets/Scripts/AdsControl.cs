@@ -4,10 +4,9 @@ using System.Collections;
 using UnityEngine.SocialPlatforms;
 using System;
 using UnityEngine.UI;
+
 public class AdsControl : MonoBehaviour
 {
-
-
     protected AdsControl()
     {
     }
@@ -16,7 +15,10 @@ public class AdsControl : MonoBehaviour
     public string AdmobID_Android, AdmobID_IOS, BannerID_Android, BannerID_IOS;
     public string UnityID_Android, UnityID_IOS, UnityZoneID;
 
-    public static AdsControl Instance { get { return _instance; } }
+    public static AdsControl Instance
+    {
+        get { return _instance; }
+    }
 
     void Awake()
     {
@@ -37,31 +39,21 @@ public class AdsControl : MonoBehaviour
          */
 
         DontDestroyOnLoad(gameObject); //Already done by CBManager
-
-
     }
 
 
     public void HandleInterstialAdClosed(object sender, EventArgs args)
     {
-        
         MakeNewInterstial();
-
-
-
     }
 
     void MakeNewInterstial()
     {
-        
-
-
     }
 
 
     public void showAds()
     {
-       
     }
 
 
@@ -72,15 +64,11 @@ public class AdsControl : MonoBehaviour
 
     public void ShowRewardVideo()
     {
-        
-
     }
 
 
     private void RequestBanner()
     {
-
-
     }
 
     public void ShowBanner()
@@ -92,7 +80,6 @@ public class AdsControl : MonoBehaviour
     }
 
 
-
     public void ShowFB()
     {
         Application.OpenURL("https://www.facebook.com/PonyStudio2507/?ref=settings");
@@ -100,16 +87,11 @@ public class AdsControl : MonoBehaviour
 
     public void RateMyGame()
     {
-
-
-
     }
 
 
-   public void PlayDelegateRewardVideo(Action<bool> onVideoPlayed)
+    public void PlayDelegateRewardVideo(Action<bool> onVideoPlayed)
     {
-        
         onVideoPlayed(false);
     }
 }
-
